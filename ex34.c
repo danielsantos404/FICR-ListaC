@@ -7,7 +7,7 @@ int main()
 	int cont = 1, dentro = 0, fora =0;
 	
 	setlocale(LC_ALL, "Portuguese");
-	printf("====== MÉDIA DOS PARES ENTRE 13 E 73 DO BALACOBACO ======\n");
+	printf("======================== INTERVALO DO BALACOBACO =====================\n");
 	
 	for (cont = 1; cont <= 10; cont++) {
 		printf("Informe o %i° número: ", cont);
@@ -21,7 +21,7 @@ int main()
 	}
 	
 	printf("Foram informados %i números dentro do intervalo e %i fora do intervalo.", dentro, fora);
-	printf("\n=========================================================");
+	printf("\n======================================================================");
 	
 	return 0;
 }
